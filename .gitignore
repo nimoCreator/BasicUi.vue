@@ -1,0 +1,16 @@
+# zależności i buildy
+node_modules
+dist
+dist-ssr
+*.local
+*.log
+*.tsbuildinfo
+.DS_Store
+
+# Biblioteka ma własne repo git — nie śledzimy jej w repo playgroundu
+/BasicUi/
+
+# VS Code — zostawiamy tylko wspólne pliki
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
