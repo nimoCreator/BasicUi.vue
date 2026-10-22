@@ -1,29 +1,24 @@
 <template>
   <BasicSiteLayout>
-    <BasicNavber>
-      <NavbarContent/>
-    </BasicNavber>
+    <BasicNavbar>
+      <NavbarContent />
+    </BasicNavbar>
     <BasicMain>
-      <RouterView/>
+      <RouterView />
     </BasicMain>
   </BasicSiteLayout>
 </template>
+
 <script lang="ts">
-import { BasicVerticalFlex, BasicPanel } from '@nimo/basic-ui'
+import NavbarContent from "./components/NavBarContent.vue";
 
 export default {
-  name: 'App',
-  components: {
-    BasicVerticalFlex,
-    BasicPanel,
-  },
+  name: "App",
+  components: { NavbarContent },
   data() {
-    return {
-    }
+    return {};
   },
 };
 </script>
 
-<style>
-
-</style>
+<style></style>

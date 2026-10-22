@@ -1,14 +1,20 @@
 <template>
-    <BasicVerticalFlex gap="unit:m">
-        <BasicPanel icon="mdif:verified">
-            <BasicIcon icon="mdif:heart"/> <pre><BasicIcon icon="mdif:heart"/></pre> <br>
-            <BasicIcon icon="mdif:heart" iconsize="unit:xxs"/> <pre><BasicIcon icon="mdif:heart" iconsize="unit:xxs"/></pre> <br>
-            <BasicIcon icon="mdif:heart" iconsize="unit:xs"/> <pre><BasicIcon icon="mdif:heart" iconsize="unit:xs"/></pre> <br>
-            <BasicIcon icon="mdif:heart" iconsize="unit:s"/> <pre><BasicIcon icon="mdif:heart" iconsize="unit:s"/></pre> <br>
-            <BasicIcon icon="mdif:heart" iconsize="unit:m"/> <pre><BasicIcon icon="mdif:heart" iconsize="unit:m"/></pre> <br>
-            <BasicIcon icon="mdif:heart" iconsize="unit:l"/> <pre><BasicIcon icon="mdif:heart" iconsize="unit:l"/></pre> <br>
-            <BasicIcon icon="mdif:heart" iconsize="unit:xl"/> <pre><BasicIcon icon="mdif:heart" iconsize="unit:xl"/></pre> <br>
-            <BasicIcon icon="mdif:heart" iconsize="unit:xxl"/> <pre><BasicIcon icon="mdif:heart" iconsize="unit:xxl"/></pre> <br>
+    <BasicVerticalFlex gap="unit-m">
+        <BasicPanel icon="mdi:verified">
+            <BasicIcon icon="mdi:heart"/> <pre><BasicIcon icon="mdi:heart"/></pre> <br>
+            <BasicIcon icon="mdi:heart" iconSize="unit-xxs"/> <pre><BasicIcon icon="mdi:heart" iconSize="unit-xxs"/></pre> <br>
+            <BasicIcon icon="mdi:heart" iconSize="unit-xs"/> <pre><BasicIcon icon="mdi:heart" iconSize="unit-xs"/></pre> <br>
+            <BasicIcon icon="mdi:heart" iconSize="unit-s"/> <pre><BasicIcon icon="mdi:heart" iconSize="unit-s"/></pre> <br>
+            <BasicIcon icon="mdi:heart" iconSize="unit-m"/> <pre><BasicIcon icon="mdi:heart" iconSize="unit-m"/></pre> <br>
+            <BasicIcon icon="mdi:heart" iconSize="unit-l"/> <pre><BasicIcon icon="mdi:heart" iconSize="unit-l"/></pre> <br>
+            <BasicIcon icon="mdi:heart" iconSize="unit-xl"/> <pre><BasicIcon icon="mdi:heart" iconSize="unit-xl"/></pre> <br>
+            <BasicIcon icon="mdi:heart" iconSize="unit-xxl"/> <pre><BasicIcon icon="mdi:heart" iconSize="unit-xxl"/></pre> <br>
         </BasicPanel>
     </BasicVerticalFlex>
 </template>
+
+<script lang="ts">
+export default {
+    name: "ComponentDocsBasicIcon",
+}
+</script>
